@@ -41,7 +41,6 @@ header {
   background-size: cover;
   background-position: center;
 }
-
 .content-card {
   display: grid;
   grid-template-columns: 500px;
@@ -53,7 +52,6 @@ header {
   font-weight: 300;
   font-style: normal;
 }
-
 .body-btn {
   color: white;
   background-color: rgba(0, 0, 0, 0);
@@ -63,9 +61,9 @@ header {
   font-style: normal;
   height: 50px;
   width: 200px;
-  transition: color 0.5s ease;
+  transition: color 0.7s ease;
+  font-size: large;
 }
-
 .body-btn:hover {
   color: rgb(158, 158, 158);
   cursor: pointer;
