@@ -42,6 +42,18 @@ header {
   background-position: center;
 }
 
+.content-card {
+  display: grid;
+  grid-template-columns: 500px;
+  text-align: center;
+  place-items: center;
+  padding-top: 100px;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+
 .body-btn {
   color: white;
   background-color: rgba(0, 0, 0, 0);
@@ -51,4 +63,10 @@ header {
   font-style: normal;
   height: 50px;
   width: 200px;
+  transition: color 0.5s ease;
+}
+
+.body-btn:hover {
+  color: rgb(158, 158, 158);
+  cursor: pointer;
 }
