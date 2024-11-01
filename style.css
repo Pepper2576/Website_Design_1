@@ -1,0 +1,43 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap');
+
+body {
+  background-color: rgb(12, 12, 12);
+}
+/* Header element */
+#nova-icon {
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.btn-header {
+  background-color: rgba(58, 46, 46, 0.804);
+  color: white;
+  border: 1px solid white;
+  padding: 5px;
+  margin: 2.5px;
+  transition: background-color 0.5s ease;
+  height: 40px;
+  width: 70px;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.btn-header:hover {
+  background-color: rgb(0, 0, 66);
+  cursor: pointer;
+}
+header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+}
+/* Body element */
+.body-container {
+  margin: 0;
+  height: 100vh;
+  background-image: url('./imgs/hero-image.jpg');
+  background-size: cover;
+  background-position: center;
+}
