@@ -4,7 +4,7 @@ body {
   background-color: rgb(12, 12, 12);
 }
 /* Header element */
-#nova-icon {
+.nova-icon {
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
@@ -40,4 +40,15 @@ header {
   background-image: url('./imgs/hero-image.jpg');
   background-size: cover;
   background-position: center;
+}
+
+.body-btn {
+  color: white;
+  background-color: rgba(0, 0, 0, 0);
+  border: 1px solid white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+  height: 50px;
+  width: 200px;
 }
