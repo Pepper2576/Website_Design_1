@@ -62,9 +62,11 @@ header {
   height: 50px;
   width: 200px;
   transition: color 0.7s ease;
+  transition: background-color 0.7s ease-in;
   font-size: large;
 }
 .body-btn:hover {
-  color: rgb(158, 158, 158);
+  color: rgba(158, 158, 158, 0.525);
   cursor: pointer;
+  background-color: rgba(18, 107, 107, 0.475);
 }

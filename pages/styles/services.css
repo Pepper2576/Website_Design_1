@@ -1,0 +1,38 @@
+.service-container {
+  display: grid;
+  grid-template-columns: 40% 60%;
+  color: white;
+}
+.info-container {
+  display: grid;
+  grid-template-columns: 50% 50%;
+  grid-template-rows: 50% 50%;
+  gap: 20px;
+  margin-right: 4em;
+}
+h3 {
+  text-transform: capitalize;
+}
+h1,
+h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+p {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+.service-heading {
+  text-align: center;
+}
+button {
+  grid-column: 2 / 3;
+}
+hr {
+  color: white;
+  width: 90%;
+  grid-column: 2 / 3;
+  margin-right: 4em;
+}
