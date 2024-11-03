@@ -3,9 +3,9 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>NOVA Services</title>
     <link rel="stylesheet" href="../style.css" />
-    <link rel="stylesheet" href="./styles/services.css" />
+    <link rel="stylesheet" href="styles/contact.css" />
+    <title>Contact NOVA</title>
   </head>
   <body>
     <!-- header container start -->
@@ -48,44 +48,17 @@
     </div>
     <!-- header container end -->
     <!-- body container start -->
-    <div class="service-container">
-      <div class="service-heading">
-        <h1>What I do ...</h1>
-      </div>
-      <div class="info-container">
-        <div class="info-card">
-          <h3>Design web apps</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Totam,
-            deleniti!
-          </p>
-        </div>
-        <div class="info-card">
-          <h3>develop web apps</h3>
-          <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi.</p>
-        </div>
-        <div class="info-card">
-          <h3>develop web games</h3>
-          <p>
-            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Dolorem
-            aliquid debitis excepturi.
-          </p>
-        </div>
-        <div class="info-card">
-          <h3>graphic design</h3>
-          <p>
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Molestias,
-            delectus!
-          </p>
-        </div>
-        <button
-          class="body-btn"
-          onclick="window.location.href = './contact.html'"
-        >
-          Work With <span class="nova-icon">NOVA</span>
-        </button>
-      </div>
-      <hr />
+    <h2 class="form-header">let me tell your digital story</h2>
+    <div class="form-container">
+      <form action="submit">
+        <label for="first-name">first name</label>
+        <input type="text" id="first-name" />
+        <label for="last-name">last name</label>
+        <input type="text" id="last-name" />
+        <label for="email">email</label>
+        <input type="email" id="email" />
+      </form>
+      <button class="body-btn">Connect</button>
     </div>
     <!-- body container end -->
   </body>

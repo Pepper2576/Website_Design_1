@@ -1,0 +1,29 @@
+body {
+  background-image: url('../../imgs/contact-page-image.jpg');
+  height: 100vh;
+  background-size: 100%;
+  background-repeat: no-repeat;
+  background-position: center;
+  margin: 0;
+}
+h2 {
+  text-transform: uppercase;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+  font-style: normal;
+}
+.form-container {
+  background-color: rgb(12, 12, 12);
+  display: grid;
+}
+label {
+  text-transform: capitalize;
+  color: white;
+  font-family: 'Roboto', sans-serif;
+  font-weight: 300;
+  font-style: normal;
+}
+button {
+  text-transform: uppercase;
+}
