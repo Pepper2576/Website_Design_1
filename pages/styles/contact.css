@@ -1,21 +1,30 @@
 body {
   background-image: url('../../imgs/contact-page-image.jpg');
-  height: 100vh;
-  background-size: 100%;
-  background-repeat: no-repeat;
-  background-position: center;
-  margin: 0;
+  background-size: cover;
+  background-position: center center;
+  text-align: center;
 }
-h2 {
+.form-header {
   text-transform: uppercase;
   color: white;
   font-family: 'Roboto', sans-serif;
   font-weight: 700;
   font-style: normal;
+  text-align: left;
+  margin-left: 12em;
 }
 .form-container {
   background-color: rgb(12, 12, 12);
+  width: 800px;
+  display: inline-block;
+  border-radius: 10px;
+  text-align: left;
+}
+form {
   display: grid;
+  grid-template-columns: 720px;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+  padding: 30px;
 }
 label {
   text-transform: capitalize;
@@ -24,6 +33,14 @@ label {
   font-weight: 300;
   font-style: normal;
 }
-button {
+#btn {
   text-transform: uppercase;
+  float: right;
+  margin-right: 20px;
+  margin-bottom: 20px;
+}
+@media (max-width: 805px) {
+  body {
+    background-size: contain;
+  }
 }
